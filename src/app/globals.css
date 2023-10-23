@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply text-5xl lg:text-9xl font-extrabold;
+    }
+
+    h2 {
+        @apply text-2xl lg:text-7xl font-bold;
+    }
+}
+
 .navbar-container {
     @apply container py-8 flex flex-row justify-between items-center px-6 lg:px-0;
 
