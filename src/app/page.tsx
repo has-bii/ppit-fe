@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar"
-// import PeriodeCarousel from "@/components/PeriodeCarousel"
+import PeriodeCarousel from "@/components/PeriodeCarousel"
 
 export default function Home() {
     return (
@@ -15,7 +15,7 @@ export default function Home() {
 
             {/* Sejarah section start */}
 
-            {/* <PeriodeCarousel /> */}
+            <PeriodeCarousel />
 
             {/* Sejarah section end */}
         </main>
